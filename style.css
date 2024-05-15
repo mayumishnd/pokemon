@@ -10,7 +10,7 @@ body{
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     gap: 160px;
-    background-image: url(./mimikyubg.webp);
+    background-image: url(./pokemon/mimikyubg.webp);
     background-size: cover;
 }
 
@@ -78,7 +78,7 @@ body{
         height: 100vh;
         font-family: Arial, Helvetica, sans-serif;
         gap: 160px;
-        background-image: url(./mimikyubg.webp);
+        background-image: url(./pokemon/mimikyubg.webp);
         background-size: cover;
     }
 }
