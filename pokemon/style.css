@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 160px;
+    background-image: url(./mimikyubg.webp);
+    background-size: cover;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 260px;
+    height: 360px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #211927;
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px 12px 0 0;
+}
+
+.card h1{
+    font-size: 32px;
+    color: #aaaaaa;
+    padding: 0 10px 0 10px;
+}
+
+.card h2{
+    font-size: 16px;
+    color: #525151;
+}
+
+.card button{
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 88%;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.ghost{
+    background-color: #5d3072;
+}
+.fairy{
+    background-color: #f8b5dc;
+}
+
+@media (max-width:800px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 160px;
+        background-image: url(./mimikyubg.webp);
+        background-size: cover;
+    }
+}
